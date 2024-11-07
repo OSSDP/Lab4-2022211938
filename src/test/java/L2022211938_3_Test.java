@@ -34,7 +34,7 @@ public class L2022211938_3_Test {
     public void testSingleElement() {
         Solution3 solution = new Solution3();
         List<Integer> result = solution.largestDivisibleSubset(new int[]{5});
-        assertEquals(List.of(4), result);
+        assertEquals(List.of(5), result);
     }
 
     /**
